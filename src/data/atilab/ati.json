@@ -1,0 +1,16 @@
+[
+    {
+        "id": 2,
+        "name": "Minttr",
+        "description": "Minttr is a note-taking app designed for personal interest exploration, save your minds, links, images and canvas in one place.",
+        "logo": "https://minttr.app/minttr-logo.png",
+        "url": "https://minttr.app"
+    },
+    {
+      "id": 1,
+      "name": "拾遗",
+      "description": "浮生若梦，拾遗几何。",
+      "logo": "https://shiyi.me/at.ico",
+      "url": "https://shiyi.me"
+    }
+]
