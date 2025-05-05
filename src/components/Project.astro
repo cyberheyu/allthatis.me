@@ -2,8 +2,8 @@
 const { projectUrl , projectName , projectDescription , projectLogo , projectId } = Astro.props
 ---
 
-<div id={projectId} p-5 mb-5 un-flex flex-col un-rounded-lg items-center class="bg-[#FCFCFC] dark:bg-[#111111]">
-    <img src={projectLogo} alt={projectName} class="w-40px h-40px">
-    <a href={projectUrl} target="_blank" rel="noopener noreferrer" pt-2 text-lg class="text-[#202020] dark:text-[#EEEEEE]" hover:text-blue>{projectName}</a>
-    <p pt-2 text-sm>{projectDescription}</p>
+<div id={projectId} p-6 aspect-ratio-square un-flex flex-col un-rounded-2xl class="bg-[#FCFCFC] dark:bg-[#111111]">
+    <img src={projectLogo} alt={projectName} w-36px h-36px sm:w-48px sm:h-48px>
+    <a href={projectUrl} target="_blank" rel="noopener noreferrer" pt-4 text-lg class="text-[#202020] dark:text-[#EEEEEE]" hover:text-blue>{projectName}</a>
+    <p pt-2 text-sm line-clamp-2>{projectDescription}</p>
 </div>

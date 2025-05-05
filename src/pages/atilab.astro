@@ -9,7 +9,7 @@ import ati from '../data/atilab/ati.json';
         <h1 text-2xl font-bold  py-2 class="text-[#202020] dark:text-[#EEEEEE]">ATI Lab</h1>
         <p text-lg>Seeking all that is.</p>
     </div>
-	<div class="project">
+	<div class="project grid gap-2xl grid-cols-2 sm:grid-cols-3" >
         {ati.map(project => (
           <Project projectUrl={project.url} projectName={project.name} projectDescription={project.description} projectId={project.id} projectLogo={project.logo} />
         ))}

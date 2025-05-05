@@ -1,16 +1,23 @@
 [
     {
+        "id": 3,
+        "name": "识典古籍",
+        "description": "一个古籍在线阅读网站。",
+        "logo": "https://lf3-static.bytednsdoc.com/obj/eden-cn/ipsaulpjuh_yzj_zlp/ljhwZthlaukjlkulzlp/logo/logo.ico",
+        "url": "https://www.shidianguji.com/"
+    },
+    {
         "id": 2,
         "name": "Minttr",
-        "description": "Minttr is a note-taking app designed for personal interest exploration, save your minds, links, images and canvas in one place.",
+        "description": "一个有点意思的笔记服务。",
         "logo": "https://minttr.com/minttr-logo.png",
-        "url": "https://minttr.app"
+        "url": "https://minttr.com/"
     },
     {
       "id": 1,
       "name": "拾遗",
       "description": "浮生若梦，拾遗几何。",
       "logo": "https://shiyi.me/at.ico",
-      "url": "https://shiyi.me"
+      "url": "https://shiyi.me/"
     }
 ]
